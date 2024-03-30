@@ -1,4 +1,4 @@
-//! An unofficial [zeebe](https://zeebe.io/) client.
+//! An [updated] unofficial [zeebe](https://zeebe.io/) client.
 //!
 //! This crate contains a client for interacting with a zeebe cluster. The `Client` contract contains
 //! standard methods for interacting with the cluster like `topology` and `create_workflow_intstance`.
