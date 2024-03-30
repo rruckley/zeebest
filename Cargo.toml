@@ -10,19 +10,21 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-failure = "0.1.5"
+failure = "0.1.8"
 # futures01 = { package = "futures", version = "0.3.30", optional = true }
 # futures-preview = { version = "0.2.2", features = ["compat"] }
 grpc = "0.8.3"
 protobuf = "3.4.0"
+
 serde = "1.0.91"
 serde_json = "1.0.39"
 
 [build-dependencies]
+protobuf-codegen = "3.4.0"
 protoc-rust-grpc = "0.8.3"
 
 [dev-dependencies]
 atomic-counter = "1.0.1"
-serde_derive = "1.0.91"
+serde_derive = "1.0.197"
 structopt = "0.3.26"
 tokio = "1.37.0"
